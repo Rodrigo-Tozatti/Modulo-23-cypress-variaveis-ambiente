@@ -1,0 +1,29 @@
+{
+  "name": "modulo-23-cypress-variaveis-ambiente",
+  "version": "1.0.0",
+  "description": "Modulo 23 Cypress Variaveis de Ambiente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy.open": "npx cypress open",
+    "cy.env.open": "CYPRESS_HOST=http://localhost npx cypress open",
+    "cy.env.cmd": "npx cypress open --env HOST=http://localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Tozatti/Modulo-23-cypress-variaveis-ambiente.git"
+  },
+  "author": "Rodrigo Tozatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Tozatti/Modulo-23-cypress-variaveis-ambiente/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-23-cypress-variaveis-ambiente#readme",
+  "dependencies": {
+    "cypress": "^12.10.0"
+  },
+  "devDependencies": {
+    "cypress-dotenv": "^2.0.0",
+    "dotenv": "^16.0.3"
+  }
+}
